@@ -23,7 +23,11 @@
       <img src="https://img.shields.io/github/stars/ClementPerroud/gym-trading-env?style=social" alt="Github stars">
    </a>
 </section>
-  
+
+# CS-GY 6923 Final Project - Reinforcement Learning: Customized Gym Trading Env
+
+Edit: Some parts of the library are modified for running the notebooks for this project.
+
 Gym Trading Env is an Gymnasium environment for simulating stocks and training Reinforcement Learning (RL) trading agents.
 It was designed to be fast and customizable for easy RL trading algorithms implementation.
 

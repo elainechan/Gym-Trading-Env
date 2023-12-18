@@ -7,10 +7,14 @@ import glob
 from pathlib import Path    
 
 from collections import Counter
-from .utils.history import History
-from .utils.portfolio import Portfolio, TargetPortfolio
+import sys
+import os
+sys.path.append(os.getcwd())
+sys.path.insert(0,'./utils')
+from utils.history import History
+from utils.portfolio import Portfolio, TargetPortfolio
 
-import tempfile, os
+import tempfile
 import warnings
 warnings.filterwarnings("error")
 
